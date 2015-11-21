@@ -17985,7 +17985,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="jasons_stuff" deviceset="PIC16F1825" device="SO14"/>
-<part name="J1" library="tag-connect" deviceset="TC2030" device="-MCP-NL"/>
+<part name="ICSP" library="tag-connect" deviceset="TC2030" device="-MCP-NL"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805"/>
@@ -18060,7 +18060,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="C2" gate="G$1" x="322.58" y="38.1" rot="R90"/>
 <instance part="GND1" gate="1" x="317.5" y="33.02"/>
 <instance part="IC2" gate="G$1" x="360.68" y="38.1"/>
-<instance part="J1" gate="G$1" x="414.02" y="43.18"/>
+<instance part="ICSP" gate="G$1" x="414.02" y="43.18"/>
 <instance part="GND2" gate="1" x="15.24" y="33.02"/>
 <instance part="GND3" gate="1" x="22.86" y="33.02"/>
 <instance part="R6" gate="G$1" x="30.48" y="43.18" rot="R90"/>
@@ -18335,7 +18335,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VSS"/>
-<pinref part="J1" gate="G$1" pin="VSS(GND)"/>
+<pinref part="ICSP" gate="G$1" pin="VSS(GND)"/>
 <wire x1="383.54" y1="45.72" x2="386.08" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="386.08" y1="45.72" x2="401.32" y2="45.72" width="0.1524" layer="91"/>
@@ -18485,7 +18485,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="337.82" y1="38.1" x2="337.82" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="53.34" x2="398.78" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="53.34" x2="398.78" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="VPP/MCLR"/>
+<pinref part="ICSP" gate="G$1" pin="VPP/MCLR"/>
 <wire x1="401.32" y1="50.8" x2="398.78" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18535,7 +18535,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="RA0/ICSPDAT"/>
-<pinref part="J1" gate="G$1" pin="ICSP_DAT/PGD"/>
+<pinref part="ICSP" gate="G$1" pin="ICSP_DAT/PGD"/>
 <wire x1="383.54" y1="43.18" x2="388.62" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="43.18" x2="401.32" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="43.18" x2="388.62" y2="58.42" width="0.1524" layer="91"/>
@@ -18551,7 +18551,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="RA1/ICPCLK"/>
-<pinref part="J1" gate="G$1" pin="ICSP_CLK/PGC"/>
+<pinref part="ICSP" gate="G$1" pin="ICSP_CLK/PGC"/>
 <wire x1="383.54" y1="40.64" x2="391.16" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="40.64" x2="401.32" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="40.64" x2="391.16" y2="58.42" width="0.1524" layer="91"/>
